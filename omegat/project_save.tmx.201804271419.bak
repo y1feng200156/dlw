@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+<!-- Alternative translations -->
+    <tu>
+      <prop type="file">深度学习与股票.docx</prop>
+      <prop type="prev"></prop>
+      <prop type="next">For a recent hackathon that we did at&lt;t0/&gt; &lt;t1/&gt;STATWORX&lt;t2/&gt;, some of our team members scraped minutely S&amp;P 500 data from the Google Finance API.</prop>
+      <tuv lang="EN-US">
+        <seg>A simple deep learning model for stock price prediction using TensorFlow</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Charles" changedate="20180427T061846Z" creationid="Charles" creationdate="20180427T061846Z">
+        <seg>使用TensorFlow做一个简单的股票变动预测的深度学习模型</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

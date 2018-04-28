@@ -1,0 +1,4 @@
+deep learning model	深度学习模型
+TensorFlow	TensorFlow
+simple	简单
+A simple deep learning model for stock price prediction using TensorFlow	TensorFlow做一个简单的股票变动预测的深度学习模型
