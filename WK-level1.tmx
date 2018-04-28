@@ -6,10 +6,10 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
-        <seg>For a recent hackathon that we did at&lt;t0/&gt; &lt;t1/&gt;STATWORX&lt;t2/&gt;, some of our team members scraped minutely S&amp;P 500 data from the Google Finance API.</seg>
+        <seg>For a recent hackathon that we did at STATWORX, some of our team members scraped minutely S&amp;P 500 data from the Google Finance API.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Charles" changedate="20180428T081551Z" creationid="Charles" creationdate="20180428T080636Z">
-        <seg>最近在 &lt;t0/&gt; &lt;t1/&gt;STATWORX&lt;t2/&gt; 举办的黑客节，我们的团队从 Google Finance API 中拉取了每分钟的 S&amp;P 500 数据。</seg>
+      <tuv lang="ZH-CN" changeid="Charles" changedate="20180428T080636Z" creationid="Charles" creationdate="20180428T080636Z">
+        <seg>最近在  STATWORX举办的黑客节，我们的团队从 Google Finance API 中拉取了每分钟的 S&amp;P 500 数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38,7 +38,7 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>The Python code I&lt;t0/&gt;’&lt;t1/&gt;ve created is not optimized for efficiency but understandability.</seg>
+        <seg>The Python code I’ve created is not optimized for efficiency but understandability.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Charles" changedate="20180428T080828Z" creationid="Charles" creationdate="20180428T080828Z">
         <seg>我编写的代码没有做效率优化，但是可读性还不错。</seg>
@@ -46,7 +46,7 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>The data consisted of index as well as stock prices of the S&amp;P&lt;t3/&gt;’&lt;t4/&gt;s 500 constituents.</seg>
+        <seg>The data consisted of index as well as stock prices of the S&amp;P’s 500 constituents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Charles" changedate="20180428T080718Z" creationid="Charles" creationdate="20180428T080718Z">
         <seg>这些数据包含了 S&amp;P 500 的指数以及其企业的股价。</seg>
@@ -54,10 +54,10 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>The dataset I&lt;t2/&gt;’&lt;t3/&gt;ve used can be downloaded from&lt;t4/&gt; &lt;t5/&gt;here&lt;t6/&gt; &lt;t7/&gt;(40MB).</seg>
+        <seg>The dataset I’ve used can be downloaded from here (40MB).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Charles" changedate="20180428T080912Z" creationid="Charles" creationdate="20180428T080912Z">
-        <seg>我使用的数据可以在&lt;t5/&gt;这里&lt;t6/&gt;下载 (40MB)。</seg>
+        <seg>我使用的数据可以在这里下载 (40MB)。</seg>
       </tuv>
     </tu>
     <tu>

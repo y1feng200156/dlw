@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For a recent hackathon that we did at<ph x="0">&lt;t0/&gt;</ph> <ph x="1">&lt;t1/&gt;</ph>STATWORX<ph x="2">&lt;t2/&gt;</ph>, some of our team members scraped minutely S&amp;P 500 data from the Google Finance API.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080636Z" creationid="Charles" creationdate="20180428T080636Z">
+        <seg>最近在 <ph x="0">&lt;t0/&gt;</ph> <ph x="1">&lt;t1/&gt;</ph>STATWORX<ph x="2">&lt;t2/&gt;</ph>举办的黑客节，我们的团队从 Google Finance API 中拉取了每分钟的 S&amp;P 500 数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Having this data at hand, the idea of developing a deep learning model for predicting the S&amp;P 500 index based on the 500 constituents prices one minute ago came immediately on my mind.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080728Z" creationid="Charles" creationdate="20180428T080728Z">
+        <seg>有了这些数据后，我立即想到了一个点子：基于 S&amp;P 500 的 500 家企业股价，建立一个深度学习模型，预测 S&amp;P 500 指数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Note, that this story is a hands-on tutorial on TensorFlow.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T081249Z" creationid="Charles" creationdate="20180428T081249Z">
+        <seg>备注，这是基于 TensorFlow 的实战教程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Playing around with the data and building the deep learning model with TensorFlow was fun and so I decided to write my first Medium.com story: a little TensorFlow tutorial on predicting S&amp;P 500 stock prices.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080737Z" creationid="Charles" creationdate="20180428T080737Z">
+        <seg>把玩这些数据来构建 TensorFlow 深度学习模型很有趣，所以我决定写我的第一个 Medium.com 文章：基于 TensorFlow 的股票价格预测深度学习模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The Python code I<ph x="0">&lt;t0/&gt;</ph>’<ph x="1">&lt;t1/&gt;</ph>ve created is not optimized for efficiency but understandability.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080828Z" creationid="Charles" creationdate="20180428T080828Z">
+        <seg>我编写的代码没有做效率优化，但是可读性还不错。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The data consisted of index as well as stock prices of the S&amp;P<ph x="3">&lt;t3/&gt;</ph>’<ph x="4">&lt;t4/&gt;</ph>s 500 constituents.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080718Z" creationid="Charles" creationdate="20180428T080718Z">
+        <seg>这些数据包含了 S&amp;P 500 的指数以及其企业的股价。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The dataset I<ph x="2">&lt;t2/&gt;</ph>’<ph x="3">&lt;t3/&gt;</ph>ve used can be downloaded from<ph x="4">&lt;t4/&gt;</ph> <ph x="5">&lt;t5/&gt;</ph>here<ph x="6">&lt;t6/&gt;</ph> <ph x="7">&lt;t7/&gt;</ph>(40MB).</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080912Z" creationid="Charles" creationdate="20180428T080912Z">
+        <seg>我使用的数据可以在<ph x="5">&lt;t5/&gt;</ph>这里<ph x="6">&lt;t6/&gt;</ph>下载 (40MB)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>What you will read is not an in-depth tutorial, but more a high-level introduction to the important building blocks and concepts of TensorFlow models.</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080747Z" creationid="Charles" creationdate="20180428T080747Z">
+        <seg>您将阅读的不是一个深入的教程，而是更高层次的介绍 TensorFlow 的重要构建组件和概念。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+    <tu>
+      <prop type="file">深度学习与股票.docx</prop>
+      <prop type="prev"></prop>
+      <prop type="next">For a recent hackathon that we did at&lt;t0/&gt; &lt;t1/&gt;STATWORX&lt;t2/&gt;, some of our team members scraped minutely S&amp;P 500 data from the Google Finance API.</prop>
+      <tuv xml:lang="EN-US">
+        <seg>A simple deep learning model for stock price prediction using TensorFlow</seg>
+      </tuv>
+      <tuv xml:lang="ZH-CN" changeid="Charles" changedate="20180428T080612Z" creationid="Charles" creationdate="20180427T061846Z">
+        <seg>基于 TensorFlow 实现股票价格预测深度学习模型</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
